@@ -1,14 +1,14 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const connectDB = require('./config/db');
 const User = require('./models/User');
 const Room = require('./models/Room');
 const Booking = require('./models/Booking');
 
 const seedData = async () => {
   try {
-    const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/hotelpro';
-    await mongoose.connect(MONGO_URI);
+    await connectDB();
 
     await Booking.deleteMany({});
     await Room.deleteMany({});
