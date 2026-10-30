@@ -225,7 +225,7 @@ Screenshots can be added into [`docs/screenshots/`](docs/screenshots/):
 - `06-admin-panel.png`: Admin room creation form and live inventory table.
 
 ### Demo Video
-- **Video Walkthrough Link**: `[https://youtube.com/watch?v=YOUR_DEMO_VIDEO_ID](https://drive.google.com/file/d/1TUx0-HI9vgyB5SfcSBpaUpS3sdwxoVkD/view?usp=drive_link)`
+- **Video Walkthrough Link**: `https://drive.google.com/file/d/1TUx0-HI9vgyB5SfcSBpaUpS3sdwxoVkD/view?usp=drive_link`
 
 ---
 
